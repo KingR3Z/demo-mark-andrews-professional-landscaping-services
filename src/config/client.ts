@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "3",
 
   // Services
   services: [
@@ -79,9 +79,9 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "H Smith", rating: 5, text: "Our project came up after our 8-month puppy was able to jump on top of the wall of gabions which stretch across the width of our garden reaching the raised/sloped section, which was not fenced off and he was able to access the neighbours …  ", date: "2 years ago" },
+    { name: "Samantha Parker", rating: 5, text: "Mark Andrews landscaping well I can only say go with them, Mark is a fantastic designer with a very high quality finish. Mark, came around and was very attentive to all of my requirements,  even suggested a few more ideas, which I went …  ", date: "2 years ago" },
+    { name: "Fay Drum", rating: 5, text: "Highly recommend Mark Andrews Professional Landscaping Services . He did work for me and I am absolutely delighted with the service and results. The knowledge that Mark has and provided me with was excellent.  His ideas ate incredible and …  ", date: "2 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
